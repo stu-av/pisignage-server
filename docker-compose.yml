@@ -12,7 +12,7 @@ services:
     image: pisignage/pisignage-server:latest
     restart: unless-stopped
     ports:
-      - 3000:3000
+      - 9006:9006
     volumes:
       - media:/media
       - data:/data
